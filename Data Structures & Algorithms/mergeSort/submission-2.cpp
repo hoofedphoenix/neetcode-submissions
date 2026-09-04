@@ -34,7 +34,7 @@ vector<Pair> R(arr.begin()+m+1,arr.begin()+e+1);
 int i=0 ;
 int j=0;
 int k=s;
-
+// my work below this
 
 while(i<L.size()&&j<R.size()){
 
@@ -42,7 +42,7 @@ if(L[i].key<=R[j].key){arr[k]=L[i];++i;}
 else{arr[k]=R[j];++j;}
 ++k;
 
-
+// till here
 
 
 }
